@@ -1,6 +1,7 @@
 ﻿using System.Linq.Expressions;
 using Microsoft.EntityFrameworkCore;
 using WebApi8.Data;
+using WebApi8.Dto.Autor;
 using WebApi8.Models;
 
 namespace WebApi8.Services.Autor
@@ -61,6 +62,33 @@ namespace WebApi8.Services.Autor
                 return resposta;
             }
             catch (Exception ex)
+            {
+                resposta.Mensagem = ex.Message;
+                resposta.Status = false;
+                return resposta;
+            }
+        }
+
+        public async Task<ResponseModel<List<AutorModel>>> CriarAutor(AutorCriacaoDto autorCriacaoDto)
+        {
+            ResponseModel<List<AutorModel>> resposta = new ResponseModel<List<AutorModel>>();
+
+            try
+            {
+                var autor = new AutorModel()
+                {
+                    Nome = autorCriacaoDto.Nome,
+                    Sobrenome = autorCriacaoDto.Sobrenome
+                };
+
+                _context.Add(autor);
+                await _context.SaveChangesAsync();
+
+                resposta.Dados = await _context.Autores.ToListAsync();
+                resposta.Mensagem = "Autor cadastrado com sucesso!";
+
+                return resposta;
+            } catch (Exception ex)
             {
                 resposta.Mensagem = ex.Message;
                 resposta.Status = false;
