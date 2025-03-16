@@ -28,5 +28,12 @@ namespace WebApi8.Controllers
             var autor = await _autorInterface.BuscarAutorPorId(idAutor);
             return Ok(autor);
         }
+
+        [HttpGet("BuscarAutorPorIdLivro/{idLivro}")]
+        public async Task<ActionResult<ResponseModel<AutorModel>>> BuscarAutoresPorIdLivro(int idLivro)
+        {
+            var autor = await _autorInterface.BuscarAutorPorIdLivro(idLivro);
+            return Ok(autor);
+        }
     }
 }
