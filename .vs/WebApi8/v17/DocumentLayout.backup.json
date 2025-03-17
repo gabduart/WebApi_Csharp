@@ -3,24 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\hdgab\\OneDrive\\Documentos\\projetos\\csharp\\WebApi8\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5CBE4430-A175-4DD7-A0EC-B1377ECE26C4}|WebApi8\\WebApi8.csproj|c:\\users\\hdgab\\onedrive\\documentos\\projetos\\csharp\\webapi8\\webapi8\\migrations\\20250316030715_criandobancodedados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CBE4430-A175-4DD7-A0EC-B1377ECE26C4}|WebApi8\\WebApi8.csproj|solutionrelative:webapi8\\migrations\\20250316030715_criandobancodedados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5CBE4430-A175-4DD7-A0EC-B1377ECE26C4}|WebApi8\\WebApi8.csproj|c:\\users\\hdgab\\onedrive\\documentos\\projetos\\csharp\\webapi8\\webapi8\\controllers\\autorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CBE4430-A175-4DD7-A0EC-B1377ECE26C4}|WebApi8\\WebApi8.csproj|solutionrelative:webapi8\\controllers\\autorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5CBE4430-A175-4DD7-A0EC-B1377ECE26C4}|WebApi8\\WebApi8.csproj|c:\\users\\hdgab\\onedrive\\documentos\\projetos\\csharp\\webapi8\\webapi8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CBE4430-A175-4DD7-A0EC-B1377ECE26C4}|WebApi8\\WebApi8.csproj|solutionrelative:webapi8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5CBE4430-A175-4DD7-A0EC-B1377ECE26C4}|WebApi8\\WebApi8.csproj|c:\\users\\hdgab\\onedrive\\documentos\\projetos\\csharp\\webapi8\\webapi8\\services\\autor\\autorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CBE4430-A175-4DD7-A0EC-B1377ECE26C4}|WebApi8\\WebApi8.csproj|solutionrelative:webapi8\\services\\autor\\autorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5CBE4430-A175-4DD7-A0EC-B1377ECE26C4}|WebApi8\\WebApi8.csproj|c:\\users\\hdgab\\onedrive\\documentos\\projetos\\csharp\\webapi8\\webapi8\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CBE4430-A175-4DD7-A0EC-B1377ECE26C4}|WebApi8\\WebApi8.csproj|solutionrelative:webapi8\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5CBE4430-A175-4DD7-A0EC-B1377ECE26C4}|WebApi8\\WebApi8.csproj|c:\\users\\hdgab\\onedrive\\documentos\\projetos\\csharp\\webapi8\\webapi8\\models\\livromodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CBE4430-A175-4DD7-A0EC-B1377ECE26C4}|WebApi8\\WebApi8.csproj|solutionrelative:webapi8\\models\\livromodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5CBE4430-A175-4DD7-A0EC-B1377ECE26C4}|WebApi8\\WebApi8.csproj|c:\\users\\hdgab\\onedrive\\documentos\\projetos\\csharp\\webapi8\\webapi8\\models\\autormodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CBE4430-A175-4DD7-A0EC-B1377ECE26C4}|WebApi8\\WebApi8.csproj|solutionrelative:webapi8\\models\\autormodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5CBE4430-A175-4DD7-A0EC-B1377ECE26C4}|WebApi8\\WebApi8.csproj|c:\\users\\hdgab\\onedrive\\documentos\\projetos\\csharp\\webapi8\\webapi8\\services\\autor\\iautorinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CBE4430-A175-4DD7-A0EC-B1377ECE26C4}|WebApi8\\WebApi8.csproj|solutionrelative:webapi8\\services\\autor\\iautorinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,66 +27,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "20250316030715_CriandoBancoDeDados.cs",
-              "DocumentMoniker": "C:\\Users\\hdgab\\OneDrive\\Documentos\\projetos\\csharp\\WebApi8\\WebApi8\\Migrations\\20250316030715_CriandoBancoDeDados.cs",
-              "RelativeDocumentMoniker": "WebApi8\\Migrations\\20250316030715_CriandoBancoDeDados.cs",
-              "ToolTip": "C:\\Users\\hdgab\\OneDrive\\Documentos\\projetos\\csharp\\WebApi8\\WebApi8\\Migrations\\20250316030715_CriandoBancoDeDados.cs",
-              "RelativeToolTip": "WebApi8\\Migrations\\20250316030715_CriandoBancoDeDados.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Title": "AutorController.cs",
+              "DocumentMoniker": "C:\\Users\\hdgab\\OneDrive\\Documentos\\projetos\\csharp\\WebApi8\\WebApi8\\Controllers\\AutorController.cs",
+              "RelativeDocumentMoniker": "WebApi8\\Controllers\\AutorController.cs",
+              "ToolTip": "C:\\Users\\hdgab\\OneDrive\\Documentos\\projetos\\csharp\\WebApi8\\WebApi8\\Controllers\\AutorController.cs",
+              "RelativeToolTip": "WebApi8\\Controllers\\AutorController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAwwCsAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T03:07:16.503Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\hdgab\\OneDrive\\Documentos\\projetos\\csharp\\WebApi8\\WebApi8\\Program.cs",
-              "RelativeDocumentMoniker": "WebApi8\\Program.cs",
-              "ToolTip": "C:\\Users\\hdgab\\OneDrive\\Documentos\\projetos\\csharp\\WebApi8\\WebApi8\\Program.cs",
-              "RelativeToolTip": "WebApi8\\Program.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAAA4AAABZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T03:02:06.097Z",
+              "WhenOpened": "2025-03-16T16:54:04.201Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\hdgab\\OneDrive\\Documentos\\projetos\\csharp\\WebApi8\\WebApi8\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "WebApi8\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\hdgab\\OneDrive\\Documentos\\projetos\\csharp\\WebApi8\\WebApi8\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "WebApi8\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAMAAAAAAAAAA==",
+              "Title": "IAutorInterface.cs",
+              "DocumentMoniker": "C:\\Users\\hdgab\\OneDrive\\Documentos\\projetos\\csharp\\WebApi8\\WebApi8\\Services\\Autor\\IAutorInterface.cs",
+              "RelativeDocumentMoniker": "WebApi8\\Services\\Autor\\IAutorInterface.cs",
+              "ToolTip": "C:\\Users\\hdgab\\OneDrive\\Documentos\\projetos\\csharp\\WebApi8\\WebApi8\\Services\\Autor\\IAutorInterface.cs",
+              "RelativeToolTip": "WebApi8\\Services\\Autor\\IAutorInterface.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T02:48:59.846Z",
+              "WhenOpened": "2025-03-16T16:39:34.016Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LivroModel.cs",
-              "DocumentMoniker": "C:\\Users\\hdgab\\OneDrive\\Documentos\\projetos\\csharp\\WebApi8\\WebApi8\\Models\\LivroModel.cs",
-              "RelativeDocumentMoniker": "WebApi8\\Models\\LivroModel.cs",
-              "ToolTip": "C:\\Users\\hdgab\\OneDrive\\Documentos\\projetos\\csharp\\WebApi8\\WebApi8\\Models\\LivroModel.cs",
-              "RelativeToolTip": "WebApi8\\Models\\LivroModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAfAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "AutorService.cs",
+              "DocumentMoniker": "C:\\Users\\hdgab\\OneDrive\\Documentos\\projetos\\csharp\\WebApi8\\WebApi8\\Services\\Autor\\AutorService.cs",
+              "RelativeDocumentMoniker": "WebApi8\\Services\\Autor\\AutorService.cs",
+              "ToolTip": "C:\\Users\\hdgab\\OneDrive\\Documentos\\projetos\\csharp\\WebApi8\\WebApi8\\Services\\Autor\\AutorService.cs",
+              "RelativeToolTip": "WebApi8\\Services\\Autor\\AutorService.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAADwv1kAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T02:44:11.108Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AutorModel.cs",
-              "DocumentMoniker": "C:\\Users\\hdgab\\OneDrive\\Documentos\\projetos\\csharp\\WebApi8\\WebApi8\\Models\\AutorModel.cs",
-              "RelativeDocumentMoniker": "WebApi8\\Models\\AutorModel.cs",
-              "ToolTip": "C:\\Users\\hdgab\\OneDrive\\Documentos\\projetos\\csharp\\WebApi8\\WebApi8\\Models\\AutorModel.cs",
-              "RelativeToolTip": "WebApi8\\Models\\AutorModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T02:42:56.811Z",
+              "WhenOpened": "2025-03-16T16:38:43.256Z",
               "EditorCaption": ""
             }
           ]
