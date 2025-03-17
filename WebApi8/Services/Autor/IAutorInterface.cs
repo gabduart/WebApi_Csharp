@@ -10,7 +10,13 @@ namespace WebApi8.Services.Autor
         Task<ResponseModel<AutorModel>> BuscarAutorPorId(int idAutor);
         Task<ResponseModel<AutorModel>> BuscarAutorPorIdLivro(int idLivro);
 
-        // Put
+        // Post
         Task<ResponseModel<List<AutorModel>>> CriarAutor(AutorCriacaoDto autorCriacaoDto);
+
+        // Put
+        Task<ResponseModel<List<AutorModel>>> EditarAutor(AutorEdicaoDto autorEdicaoDto);
+
+        // Delete
+        Task<ResponseModel<List<AutorModel>>> ExcluirAutor(int idAutor);
     }
 }
