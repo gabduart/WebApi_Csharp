@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hdgab\\OneDrive\\Documentos\\projetos\\csharp\\WebApi8\\WebApi8\\WebApi8.csproj": {}
+    "C:\\Users\\hdgab\\OneDrive\\Documentos\\projetos\\csharp\\WebApi_Csharp\\WebApi8\\WebApi8.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hdgab\\OneDrive\\Documentos\\projetos\\csharp\\WebApi8\\WebApi8\\WebApi8.csproj": {
+    "C:\\Users\\hdgab\\OneDrive\\Documentos\\projetos\\csharp\\WebApi_Csharp\\WebApi8\\WebApi8.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hdgab\\OneDrive\\Documentos\\projetos\\csharp\\WebApi8\\WebApi8\\WebApi8.csproj",
+        "projectUniqueName": "C:\\Users\\hdgab\\OneDrive\\Documentos\\projetos\\csharp\\WebApi_Csharp\\WebApi8\\WebApi8.csproj",
         "projectName": "WebApi8",
-        "projectPath": "C:\\Users\\hdgab\\OneDrive\\Documentos\\projetos\\csharp\\WebApi8\\WebApi8\\WebApi8.csproj",
+        "projectPath": "C:\\Users\\hdgab\\OneDrive\\Documentos\\projetos\\csharp\\WebApi_Csharp\\WebApi8\\WebApi8.csproj",
         "packagesPath": "C:\\Users\\hdgab\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hdgab\\OneDrive\\Documentos\\projetos\\csharp\\WebApi8\\WebApi8\\obj\\",
+        "outputPath": "C:\\Users\\hdgab\\OneDrive\\Documentos\\projetos\\csharp\\WebApi_Csharp\\WebApi8\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
