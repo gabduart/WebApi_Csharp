@@ -43,5 +43,19 @@ namespace WebApi8.Controllers
             var livros = await _livroInterface.CirarLivro(livroCriacaoDto);
             return Ok(livros);
         }
+
+        [HttpPut("EditarLivro")]
+        public async Task<ActionResult<ResponseModel<List<LivroModel>>>> EditarLivro(LivroEdicaoDto livroEdicaoDto)
+        {
+            var livros = await _livroInterface.EditarLivro(livroEdicaoDto);
+            return Ok(livros);
+        }
+
+        [HttpDelete("ExcluirLivro/{idLivro}")]
+        public async Task<ActionResult<ResponseModel<List<LivroModel>>>> ExcluirLivro(int idLivro)
+        {
+            var livros = await _livroInterface.ExcluirLivro(idLivro);
+            return Ok(livros);
+        }
     }
 }
