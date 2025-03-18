@@ -11,12 +11,12 @@
       "RelativeMoniker": "D:0:0:{5CBE4430-A175-4DD7-A0EC-B1377ECE26C4}|WebApi8\\WebApi8.csproj|solutionrelative:webapi8\\services\\livro\\livroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5CBE4430-A175-4DD7-A0EC-B1377ECE26C4}|WebApi8\\WebApi8.csproj|c:\\users\\hdgab\\onedrive\\documentos\\projetos\\csharp\\webapi_csharp\\webapi8\\services\\autor\\autorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CBE4430-A175-4DD7-A0EC-B1377ECE26C4}|WebApi8\\WebApi8.csproj|solutionrelative:webapi8\\services\\autor\\autorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5CBE4430-A175-4DD7-A0EC-B1377ECE26C4}|WebApi8\\WebApi8.csproj|c:\\users\\hdgab\\onedrive\\documentos\\projetos\\csharp\\webapi_csharp\\webapi8\\services\\livro\\ilivrointerface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5CBE4430-A175-4DD7-A0EC-B1377ECE26C4}|WebApi8\\WebApi8.csproj|solutionrelative:webapi8\\services\\livro\\ilivrointerface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CBE4430-A175-4DD7-A0EC-B1377ECE26C4}|WebApi8\\WebApi8.csproj|c:\\users\\hdgab\\onedrive\\documentos\\projetos\\csharp\\webapi_csharp\\webapi8\\services\\autor\\autorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CBE4430-A175-4DD7-A0EC-B1377ECE26C4}|WebApi8\\WebApi8.csproj|solutionrelative:webapi8\\services\\autor\\autorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,15 +30,28 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "AutorService.cs",
               "DocumentMoniker": "C:\\Users\\hdgab\\OneDrive\\Documentos\\projetos\\csharp\\WebApi_Csharp\\WebApi8\\Services\\Autor\\AutorService.cs",
               "RelativeDocumentMoniker": "WebApi8\\Services\\Autor\\AutorService.cs",
               "ToolTip": "C:\\Users\\hdgab\\OneDrive\\Documentos\\projetos\\csharp\\WebApi_Csharp\\WebApi8\\Services\\Autor\\AutorService.cs",
               "RelativeToolTip": "WebApi8\\Services\\Autor\\AutorService.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACwAAAAAAAAAAAAQwEUAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-18T12:47:27.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ILivroInterface.cs",
+              "DocumentMoniker": "C:\\Users\\hdgab\\OneDrive\\Documentos\\projetos\\csharp\\WebApi_Csharp\\WebApi8\\Services\\Livro\\ILivroInterface.cs",
+              "RelativeDocumentMoniker": "WebApi8\\Services\\Livro\\ILivroInterface.cs",
+              "ToolTip": "C:\\Users\\hdgab\\OneDrive\\Documentos\\projetos\\csharp\\WebApi_Csharp\\WebApi8\\Services\\Livro\\ILivroInterface.cs",
+              "RelativeToolTip": "WebApi8\\Services\\Livro\\ILivroInterface.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T02:53:42.411Z",
               "EditorCaption": ""
             },
             {
@@ -49,22 +62,9 @@
               "RelativeDocumentMoniker": "WebApi8\\Services\\Livro\\LivroService.cs",
               "ToolTip": "C:\\Users\\hdgab\\OneDrive\\Documentos\\projetos\\csharp\\WebApi_Csharp\\WebApi8\\Services\\Livro\\LivroService.cs",
               "RelativeToolTip": "WebApi8\\Services\\Livro\\LivroService.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwB0AAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAACgAAAAAAAAAAAAgwDQAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-17T02:54:21.1Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ILivroInterface.cs",
-              "DocumentMoniker": "C:\\Users\\hdgab\\OneDrive\\Documentos\\projetos\\csharp\\WebApi_Csharp\\WebApi8\\Services\\Livro\\ILivroInterface.cs",
-              "RelativeDocumentMoniker": "WebApi8\\Services\\Livro\\ILivroInterface.cs",
-              "ToolTip": "C:\\Users\\hdgab\\OneDrive\\Documentos\\projetos\\csharp\\WebApi_Csharp\\WebApi8\\Services\\Livro\\ILivroInterface.cs",
-              "RelativeToolTip": "WebApi8\\Services\\Livro\\ILivroInterface.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T02:53:42.411Z",
               "EditorCaption": ""
             },
             {
@@ -75,7 +75,7 @@
               "RelativeDocumentMoniker": "WebApi8\\Controllers\\LivroController.cs",
               "ToolTip": "C:\\Users\\hdgab\\OneDrive\\Documentos\\projetos\\csharp\\WebApi_Csharp\\WebApi8\\Controllers\\LivroController.cs",
               "RelativeToolTip": "WebApi8\\Controllers\\LivroController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABsAAABJAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAxwBwAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-17T02:52:13.668Z",
               "EditorCaption": ""

@@ -17,23 +17,55 @@ namespace WebApi8.Services.Livro
         public async Task<ResponseModel<LivroModel>> BuscarLivroPorId(int idLivro)
         {
             ResponseModel<LivroModel> resposta = new ResponseModel<LivroModel>();
-            var livro = await _context.Livros
-                .Include(a => a.Autor)
-                .FirstOrDefaultAsync(livroBanco => livroBanco.Id ==  idLivro);
-            if (livro == null)
+            try
             {
-                resposta.Mensagem = "Nenhum livro foi encontrado!";
+                var livro = await _context.Livros
+                .Include(a => a.Autor)
+                .FirstOrDefaultAsync(livroBanco => livroBanco.Id == idLivro);
+                if (livro == null)
+                {
+                    resposta.Mensagem = "Nenhum livro foi encontrado!";
+                    return resposta;
+                }
+
+                resposta.Dados = livro;
+                resposta.Mensagem = "Livro encontrado com sucesso";
+                return resposta;
+            } catch (Exception ex)
+            {
+                resposta.Mensagem = ex.Message;
+                resposta.Status = false;
                 return resposta;
             }
-
-            resposta.Dados = livro;
-            resposta.Mensagem = "Livro encontrado com sucesso";
-            return resposta;
         }
 
-        public Task<ResponseModel<LivroModel>> BuscarLivroPorIdAutor(int idAutor)
+        public async Task<ResponseModel<List<LivroModel>>> BuscarLivroPorIdAutor(int idAutor)
         {
-            throw new NotImplementedException();
+            ResponseModel<List<LivroModel>> resposta = new ResponseModel<List<LivroModel>>();
+            try
+            {
+                var livro = await _context.Livros
+                    .Include(a => a.Autor)
+                    .Where(livroBanco => livroBanco.Autor.Id == idAutor)
+                    .ToListAsync();
+
+                if (livro == null)
+                {
+                    resposta.Mensagem = "Nenhum registro localizado!";
+                    return resposta;
+                }
+
+                resposta.Dados = livro; // Pegando os dados de autor com base na prop de livro
+                resposta.Mensagem = "Livro encontrado com sucesso!";
+
+                return resposta;
+            }
+            catch (Exception ex)
+            {
+                resposta.Mensagem = ex.Message;
+                resposta.Status = false;
+                return resposta;
+            }
         }
 
         public Task<ResponseModel<LivroModel>> CirarLivro(LivroCriacaoDto livroCriacaoDto)

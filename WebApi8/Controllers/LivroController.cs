@@ -23,9 +23,16 @@ namespace WebApi8.Controllers
         }
 
         [HttpGet("BuscarLivrosPorId/{idLivro}")]
-        public async Task<ActionResult<ResponseModel<List<LivroModel>>>> BuscarLivrosPorId(int idLivro)
+        public async Task<ActionResult<ResponseModel<LivroModel>>> BuscarLivrosPorId(int idLivro)
         {
             var livros = await _livroInterface.BuscarLivroPorId(idLivro);
+            return Ok(livros);
+        }
+
+        [HttpGet("BuscarLivrosPorIdAutor/{idAutor}")]
+        public async Task<ActionResult<ResponseModel<List<LivroModel>>>> BuscarLivrosPorIdAutor(int idAutor)
+        {
+            var livros = await _livroInterface.BuscarLivroPorIdAutor(idAutor);
             return Ok(livros);
         }
     }
