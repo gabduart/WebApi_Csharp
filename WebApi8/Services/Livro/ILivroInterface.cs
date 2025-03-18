@@ -12,7 +12,7 @@ namespace WebApi8.Services.Livro
         Task<ResponseModel<List<LivroModel>>> BuscarLivroPorIdAutor(int idAutor);
 
         // Post
-        Task<ResponseModel<LivroModel>> CirarLivro(LivroCriacaoDto livroCriacaoDto);
+        Task<ResponseModel<List<LivroModel>>> CirarLivro(LivroCriacaoDto livroCriacaoDto);
 
         // Put
         Task<ResponseModel<List<LivroModel>>> EditarLivro(LivroEdicaoDto livroEdicaoDto);

@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using WebApi8.Data;
+using WebApi8.Dto.Autor;
 using WebApi8.Dto.Livro;
 using WebApi8.Models;
 
@@ -68,9 +69,40 @@ namespace WebApi8.Services.Livro
             }
         }
 
-        public Task<ResponseModel<LivroModel>> CirarLivro(LivroCriacaoDto livroCriacaoDto)
+        public async Task<ResponseModel<List<LivroModel>>> CirarLivro(LivroCriacaoDto livroCriacaoDto)
         {
-            throw new NotImplementedException();
+            ResponseModel<List<LivroModel>> resposta = new ResponseModel<List<LivroModel>>();
+
+            try
+            {
+                var autor = await _context.Autores
+                    .FirstOrDefaultAsync(autorBanco => autorBanco.Id == livroCriacaoDto.Autor.Id);
+
+                if (autor == null)
+                {
+                    resposta.Mensagem = "Nenhum registro de autor localizado";
+                    return resposta;
+                }
+
+                var livro = new LivroModel()
+                {
+                    Titulo = livroCriacaoDto.Titulo,
+                    Autor = autor
+                };
+
+                _context.Add(livro);
+                await _context.SaveChangesAsync();
+
+                resposta.Dados = await _context.Livros.Include(a => a.Autor).ToListAsync();
+                resposta.Mensagem = "Livro cadastrado com sucesso!";
+                return resposta;
+            }
+            catch (Exception ex)
+            {
+                resposta.Mensagem = ex.Message;
+                resposta.Status = false;
+                return resposta;
+            }
         }
 
         public Task<ResponseModel<List<LivroModel>>> EditarLivro(LivroEdicaoDto livroEdicaoDto)
