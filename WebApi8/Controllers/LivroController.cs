@@ -21,5 +21,12 @@ namespace WebApi8.Controllers
             var livros = await _livroInterface.ListarLivros();
             return Ok(livros);
         }
+
+        [HttpGet("BuscarLivrosPorId/{idLivro}")]
+        public async Task<ActionResult<ResponseModel<List<LivroModel>>>> BuscarLivrosPorId(int idLivro)
+        {
+            var livros = await _livroInterface.BuscarLivroPorId(idLivro);
+            return Ok(livros);
+        }
     }
 }

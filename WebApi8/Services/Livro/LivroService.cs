@@ -14,9 +14,21 @@ namespace WebApi8.Services.Livro
             _context = context;
         }
 
-        public Task<ResponseModel<LivroModel>> BuscarLivroPorId(int idLivro)
+        public async Task<ResponseModel<LivroModel>> BuscarLivroPorId(int idLivro)
         {
-            throw new NotImplementedException();
+            ResponseModel<LivroModel> resposta = new ResponseModel<LivroModel>();
+            var livro = await _context.Livros
+                .Include(a => a.Autor)
+                .FirstOrDefaultAsync(livroBanco => livroBanco.Id ==  idLivro);
+            if (livro == null)
+            {
+                resposta.Mensagem = "Nenhum livro foi encontrado!";
+                return resposta;
+            }
+
+            resposta.Dados = livro;
+            resposta.Mensagem = "Livro encontrado com sucesso";
+            return resposta;
         }
 
         public Task<ResponseModel<LivroModel>> BuscarLivroPorIdAutor(int idAutor)
